@@ -1,13 +1,11 @@
-#!/bin/bash
 #include "lists.h"
 
-   /**
-    * check_cycle - check for loop in LL
-    * @list: head of linked list
-    *
-    * Description - check for loops in LL
-    * Return: 1 if cycled, 0 if not
-    */
+/**
+* check_cycle - checks for loop in linked List
+* @list: head of linked list
+*
+* Return: 1 if cycled, 0 if not
+*/
 
 int check_cycle(listint_t *list)
 {
