@@ -8,7 +8,6 @@ if number >= 0:
         lastDigit = number % 10
 else:
         lastDigit = -lastDigit
-
         output = f"Last digit of {number:d} is {lastDigit:d}"
 
         if lastDigit == 0:
